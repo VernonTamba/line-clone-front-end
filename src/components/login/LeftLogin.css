@@ -1,0 +1,9 @@
+.leftLogin {
+}
+
+@media (min-width: 40rem) {
+  .leftLogin {
+    flex: 2;
+    border-right: 2px solid gainsboro;
+  }
+}

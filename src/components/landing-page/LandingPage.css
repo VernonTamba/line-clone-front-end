@@ -1,0 +1,93 @@
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-image: url("https://www.messengerpeople.com/wp-content/uploads/2018/09/messaging-apps-brands-line.png");
+  background-position: bottom left 30rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #007f5f;
+  padding-left: 3rem;
+  color: #fff;
+}
+
+.landingPage h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  margin: 0;
+  line-height: 0.9;
+}
+
+.landingPage h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.landingPage p {
+  margin: 0;
+  font-weight: 100;
+  line-height: 1.7;
+}
+
+.landingPage a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  transition: all 0.1s ease-in-out;
+}
+
+.landingPage__loginLink {
+  border: none;
+  color: #007f5f !important;
+  background-color: #fff;
+}
+
+.landingPage__loginLink:hover {
+  transform: scale(1.05);
+}
+
+.landingPage__link:hover {
+  color: #007f5f;
+  background-color: #fff;
+  transform: scale(1.05);
+}
+
+.landingPage__links {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  margin-top: 3rem;
+}
+
+@media (max-width: 40em) {
+  .landingPage {
+    background-image: none;
+  }
+
+  .landingPage h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  .landingPage h3 {
+    font-size: 1.5rem;
+  }
+
+  .landingPage p {
+    font-size: 0.8rem;
+  }
+
+  .landingPage__links {
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,47 @@
+.nav {
+  background-color: #1d1d1f;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  max-width: 4rem;
+  /* padding-left: 1.5rem; */
+}
+
+.nav__top,
+.nav__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nav__top {
+  margin-top: 2rem;
+}
+
+.nav__bottom {
+  margin-bottom: 2rem;
+}
+
+.nav__logo {
+  width: 3rem;
+  filter: invert(52%) sepia(86%) saturate(1890%) hue-rotate(105deg)
+    brightness(99%) contrast(95%);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 0.5%;
+  transform: translate(0.5%, -50%);
+}
+
+.nav__icon {
+  color: grey;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.nav__icon:hover {
+  color: white;
+}

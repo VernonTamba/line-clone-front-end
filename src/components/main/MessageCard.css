@@ -1,0 +1,34 @@
+.messageCard {
+  /* position: absolute; */
+  width: fit-content;
+  margin: 0.5em;
+  padding: 0.3em;
+}
+
+.messageCard__user {
+  margin-left: auto;
+  text-align: right;
+}
+
+.messageCard__name {
+  color: #fff !important;
+  font-size: 0.7rem !important;
+  margin: 0.3em 0.5em;
+}
+
+.messageCard__userCard,
+.messageCard__guestCard {
+  /* Resize the height / compress the height */
+  /* border-radius: 8rem !important; */
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.messageCard__userCard {
+  background-color: #0aa23e !important;
+}
+
+.messageCard__guestCard {
+  background-color: #e9e9eb !important;
+}

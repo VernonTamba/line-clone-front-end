@@ -1,0 +1,18 @@
+.topLeftLogin {
+  display: flex;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.topLeftLogin__menu {
+  cursor: pointer;
+}
+
+.topLeftLogin__help {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.topLeftLogin__menu:hover,
+.topLeftLogin__help:hover {
+  transform: translate3d(0px, -2px, 0px);
+}

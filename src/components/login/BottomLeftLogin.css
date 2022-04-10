@@ -1,0 +1,24 @@
+.bottomLeftLogin {
+  position: relative;
+  height: 7rem;
+}
+
+.bottomLeftLogin__link {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+  position: absolute;
+  left: 2rem;
+  bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.bottomLeftLogin__link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 40rem) {
+  .bottomLeftLogin__link {
+    left: 0;
+  }
+}

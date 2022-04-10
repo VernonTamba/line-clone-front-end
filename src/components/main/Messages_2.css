@@ -1,0 +1,153 @@
+.messages {
+  flex: 1;
+  background-color: #1d1d1f;
+  height: 100vh;
+  color: #d3d3d3;
+}
+
+.messages__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #2a2a2c;
+  position: fixed;
+  top: 0;
+  min-height: 5vh;
+  background-color: #1d1d1f;
+  z-index: 100;
+  width: 75%;
+}
+
+.messages__headerLeft {
+  margin-left: 1rem;
+}
+
+.messages__headerName {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.messages__headerName:hover {
+  color: #fff;
+}
+
+.messages__headerRight {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 3em;
+}
+
+.messages__headerIcons {
+  transform: scale(0.9);
+  margin: 0.5rem;
+  cursor: pointer;
+  color: grey;
+}
+
+.messages__headerIcons:hover {
+  color: #fff;
+}
+
+.messages__content {
+  position: relative;
+  top: 10vh;
+  height: 75vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.messages__content::-webkit-scrollbar {
+  display: none;
+}
+
+.messages__messageContent {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  min-height: 10vh;
+  width: 75%;
+  background-color: #1d1d1f;
+  z-index: 100;
+  border-top: 2px solid #2a2a2c;
+  padding: 0.5rem 0;
+}
+
+/* .messages__message {
+  position: fixed;
+  bottom: 0;
+  min-height: 10vh;
+  width: 100%;
+  background-color: #1d1d1f;
+  z-index: 100;
+  border-top: 2px solid #2a2a2c;
+  padding: 0.5rem 0;
+  border: 5px solid white;
+  display: flex;
+} */
+
+/* .messages__messageContent {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  border: 2px solid lightcoral;
+} */
+
+.messages__messageLeft {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 2em;
+}
+
+.messages__messageForm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 4em;
+}
+
+.messages__messageLeft {
+  width: 5%;
+}
+
+.messages__messageForm {
+  width: 95%;
+}
+
+.messages__messageForm input {
+  width: 90%;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.messages__messageSendButton {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.messages__messageSendButton:hover {
+  background: #2a2a2c;
+}
+
+.messages__sendIcons {
+  color: #fff;
+  align-self: center;
+}
+
+.messages__messageIcons {
+  transform: scale(0.9);
+  cursor: pointer;
+  color: grey;
+}
+
+.messages__messageIcons:hover {
+  color: #fff;
+}

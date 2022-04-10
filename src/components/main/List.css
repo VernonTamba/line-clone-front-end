@@ -1,0 +1,11 @@
+.list {
+  flex: 1;
+  /* margin: 2rem; */
+  max-width: 20rem;
+}
+
+@media (max-width: 40em) {
+  .list {
+    max-width: 7rem;
+  }
+}

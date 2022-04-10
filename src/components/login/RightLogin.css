@@ -1,0 +1,28 @@
+.rightLogin {
+  text-align: center;
+  margin: 2rem;
+}
+
+.rightLogin__qrCode {
+  width: 10rem;
+}
+
+.rightLogin__content {
+  /* width: 30%; */
+  margin-inline: auto;
+}
+
+.rightLogin__title {
+  font-size: 1rem;
+}
+
+.rightLogin__description {
+  font-size: 0.7rem;
+  color: lightgray;
+}
+
+@media (min-width: 30rem) {
+  .rightLogin {
+    flex: 1;
+  }
+}

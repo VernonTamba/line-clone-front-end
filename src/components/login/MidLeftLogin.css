@@ -1,0 +1,84 @@
+.midLeftLogin,
+.midLeftLogin__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.midLeftLogin {
+  gap: 2rem;
+}
+
+.midLeftLogin__logo {
+  width: 5rem;
+  filter: invert(52%) sepia(86%) saturate(1890%) hue-rotate(105deg)
+    brightness(99%) contrast(95%);
+}
+
+.midLeftLogin__input {
+  height: 2.5rem;
+  background-color: transparent;
+  border: 1px solid black;
+  width: 18rem;
+  color: white;
+}
+
+.border-top-customized {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.border-bottom-customized {
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.no-border-bottom {
+  border-bottom: none;
+}
+
+.midLeftLogin__buttonLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.midLeftLogin__buttonLink:hover {
+  color: #06c755;
+}
+
+.midLeftLogin__button {
+  height: 3rem;
+  width: 100%;
+  color: #fff;
+  background-color: #06c755;
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.midLeftLogin__button:hover {
+  background-color: white;
+  color: #06c755;
+}
+
+.midLeftLogin__reset {
+  text-decoration: none;
+  color: white;
+  align-self: flex-end;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.midLeftLogin__reset:hover {
+  text-decoration: underline;
+}
