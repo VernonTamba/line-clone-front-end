@@ -82,11 +82,14 @@ const Messages = () => {
       </div>
       <div className="messages__content">
         {messages.map((message, index) => (
-          <MessageCard
+          <p
+            className={`messages__contentChat ${
+              message.username === "Me" ? "messages__contentChatReceiver" : ""
+            }`}
             key={index}
-            username={username}
-            message={message}
-          ></MessageCard>
+          >
+            {message.message}
+          </p>
         ))}
       </div>
       {/* <div className="messages__message"> */}

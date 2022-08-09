@@ -17,7 +17,7 @@ const Chats = () => {
           alt="Profile avatar"
         />
         <div className="chats__chatContent">
-          <h1 className="chats__username">Test Account</h1>
+          <h1 className="chats__username">Global Chat</h1>
           <h3 className="chats__latestChat">
             Hello, this is a test message!
           </h3>{" "}
