@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import "./Messages.css";
 import "./Messages_2.css";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import ArticleIcon from "@mui/icons-material/Article";
@@ -8,7 +7,7 @@ import AttachFileIcon from "@mui/icons-material/AttachFile";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAlt";
 import SendIcon from "@mui/icons-material/Send";
-import MessageCard from "./MessageCard";
+// import MessageCard from "./MessageCard";
 // import db from "../../firebase";
 
 const Messages = () => {
@@ -48,8 +47,6 @@ const Messages = () => {
   const sendMessage = (event) => {
     event.preventDefault();
 
-    // setUsername(prompt("Enter a username: "));
-
     setMessages([...messages, { username: username, message: inputMessage }]);
     setInputMessage("");
   };
@@ -71,7 +68,7 @@ const Messages = () => {
       <div className="messages__header">
         {/* <div className="messages__headerContent"> */}
         <div className="messages__headerLeft">
-          <h1 className="messages__headerName">Test Account</h1>
+          <h1 className="messages__headerName">Global Chat Room</h1>
         </div>
         <div className="messages__headerRight">
           <SearchOutlinedIcon className="messages__headerIcons" />
@@ -88,6 +85,7 @@ const Messages = () => {
             }`}
             key={index}
           >
+            <span>{message.username}</span>
             {message.message}
           </p>
         ))}
@@ -113,7 +111,7 @@ const Messages = () => {
           >
             <SendIcon className="messages__sendIcons" />
           </button>
-          <SentimentSatisfiedAltIcon className="messages__messageIcons" />
+          <SentimentSatisfiedAltIcon className="messages__messageIcons messages__smileIcon" />
         </form>
       </div>
       {/* </div> */}

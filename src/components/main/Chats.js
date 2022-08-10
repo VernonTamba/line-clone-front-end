@@ -21,7 +21,7 @@ const Chats = () => {
           <h3 className="chats__latestChat">
             Hello, this is a test message!
           </h3>{" "}
-          {/* We can add the ... feature (Sunny Netflix */}
+          {/* We can add the ... feature (Sunny Netflix) */}
         </div>
       </div>
     </div>
